@@ -1,2 +1,0 @@
-# earnings-transcripts
-earnings-transcripts
