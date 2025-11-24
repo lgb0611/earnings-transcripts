@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>기업 실적 컨퍼런스 콜 정리</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>기업 실적 컨퍼런스 콜 (Earnings Call) 정리</h1>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="기업명을 입력하세요 (예: 애플, 테슬라, 엔비디아, 삼성전자)" autocomplete="off" />
+      </div>
+      <button id="addCompanyBtn" class="add-btn">새 기업 추가</button>
+      <p class="note">현재 15개 주요 기업의 최근 4개 분기 컨콜을 지원합니다. 추가된 기업은 브라우저 세션 내에서 유지됩니다.</p>
+    </header>
+
+    <!-- 새 기업 추가 폼 -->
+    <div id="addForm" class="add-form hidden">
+      <h2>새 기업 추가</h2>
+      <input type="text" id="newName" placeholder="기업명 (한국어)" required />
+      <input type="text" id="newNameEn" placeholder="기업명 (영어)" required />
+      <input type="text" id="newTicker" placeholder="티커 (e.g., AAPL)" required />
+      <div class="transcript-inputs">
+        <h3>최근 분기 1 (Q&A 포함 상세 내용)</h3>
+        <input type="text" id="newQuarter1" placeholder="분기 (e.g., 2025 Q4)" required />
+        <input type="date" id="newDate1" required />
+        <textarea id="newSummaryEn1" placeholder="영어 상세 요약 (Opening, Highlights, Q&A)" rows="4" required></textarea>
+        <textarea id="newSummaryKr1" placeholder="한국어 번역 상세 요약" rows="4" required></textarea>
+        
+        <h3>최근 분기 2 (선택)</h3>
+        <input type="text" id="newQuarter2" placeholder="분기 (e.g., 2025 Q3)" />
+        <input type="date" id="newDate2" />
+        <textarea id="newSummaryEn2" placeholder="영어 상세 요약" rows="3"></textarea>
+        <textarea id="newSummaryKr2" placeholder="한국어 번역 상세 요약" rows="3"></textarea>
+      </div>
+      <button id="submitAdd" class="submit-btn">추가하기</button>
+      <button id="cancelAdd" class="cancel-btn">취소</button>
+    </div>
+
+    <main id="results"></main>
+    <div id="no-result" class="hidden">검색된 기업이 없습니다.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
