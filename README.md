@@ -2,11 +2,11 @@
 
 **티커 입력 → 자동 분석 → 웹 결과 확인**
 
-[![GitHub Pages](https://github.com/yourusername/earnings-call-summarizer/actions/workflows/pages.yml/badge.svg)](https://yourusername.github.io/earnings-call-summarizer)
+[![GitHub Pages](https://github.com/lgb0611/earnings-transcripts/actions/workflows/pages.yml/badge.svg)](https://lgb0611.github.io/earnings-transcripts)
 
 ## 🚀 GitHub Pages 데모
 
-**[지금 바로 사용해보기 →](https://yourusername.github.io/earnings-call-summarizer)**
+**[지금 바로 사용해보기 →](https://lgb0611.github.io/earnings-transcripts)**
 
 ## 🌐 웹 버전 기능
 
@@ -21,7 +21,7 @@
 
 ```bash
 # 1. 클론
-git clone https://github.com/yourusername/earnings-call-summarizer.git
+git clone https://github.com/lgb0611/earnings-transcripts.git
 cd earnings-call-summarizer
 
 # 2. 의존성 설치
