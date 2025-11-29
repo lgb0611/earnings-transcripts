@@ -1,0 +1,4 @@
+# 설정값
+GOOGLE_SEARCH_QUERY_TEMPLATE = "{} earnings call transcript latest"
+MAX_SUMMARY_LENGTH = 3000
+SEARCH_RESULT_LIMIT = 10
