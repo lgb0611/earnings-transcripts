@@ -1,34 +1,26 @@
-# 📊 Earnings Call Summarizer
+# 📊 Earnings Transcripts
 
-**티커 입력 → 자동 분석 → 웹 결과 확인**
+**티커 입력 → 자동 어닝 컨콜 요약**
 
-[![GitHub Pages](https://github.com/lgb0611/earnings-transcripts/actions/workflows/pages.yml/badge.svg)](https://lgb0611.github.io/earnings-transcripts)
+[![GitHub Pages](https://github.com/lgb0611/earnings-transcripts/actions/workflows/pages/pages-build-deployment/badge.svg)](https://lgb0611.github.io/earnings-transcripts)
 
-## 🚀 GitHub Pages 데모
+## 🚀 지금 바로 사용
 
-**[지금 바로 사용해보기 →](https://lgb0611.github.io/earnings-transcripts)**
+**[https://lgb0611.github.io/earnings-transcripts](https://lgb0611.github.io/earnings-transcripts)**
 
-## 🌐 웹 버전 기능
+![Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=TSLA+%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5+%E1%84%89%E1%85%A6%E1%86%AB%E1%84%89%E1%85%A6%E1%86%A8)
 
-✅ **티커만 입력** - TSLA, AAPL 등  
-✅ **실시간 진행률** - 검색 → 번역 → 요약  
-✅ **아름다운 UI** - 모바일 대응  
-✅ **한방에 복사** - 클립보드 복사  
-✅ **파일 다운로드** - TXT 저장  
-✅ **원문 링크** - SeekingAlpha 등  
+## ✨ 기능
+
+✅ **티커만 입력** - TSLA, AAPL, NVDA  
+✅ **실시간 진행** - 검색→번역→요약  
+✅ **한글 요약** - 3000자 이내  
+✅ **파일 다운** - TXT 저장  
+✅ **모바일 지원** - 반응형 디자인  
 
 ## 🖥️ 로컬 실행
 
 ```bash
-# 1. 클론
-git clone https://github.com/lgb0611/earnings-transcripts.git
-cd earnings-call-summarizer
-
-# 2. 의존성 설치
 pip install -r requirements.txt
-
-# 3. 웹 서버 실행
 python web.py
-
-# 4. 브라우저에서 접속
 # http://localhost:5000
